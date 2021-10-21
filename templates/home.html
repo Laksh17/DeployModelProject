@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        This is my homepage!
+
+        <form action="{% url 'result' %}">
+
+            {% csrf_token %}
+            carat: <input type="text" required name="carat"> <br> <br>
+            width: <input type="text" required name="width"> <br> <br>
+            height: <input type="text" required name="height"> <br> <br>
+            thickness: <input type="text" required name="thickness"> <br> <br>
+
+            <input type="submit" name="" value="submit">
+        </form>
+    </body>
+
+</html>
