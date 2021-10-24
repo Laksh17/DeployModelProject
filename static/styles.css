@@ -5,9 +5,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-image: linear-gradient(to bottom right, rgb(243, 110, 22), rgb(243, 176, 138));
 }
-#title_holder::selection{
-    background-color: #8d1b07;
-    color:#432242;
+::selection{
+    background-color: #af2d16;
+    color:#fb6a09;
 }
 #title_holder{
     padding: 5%;
@@ -31,6 +31,9 @@ form{
     height: 18px;
     padding: 6px;
     margin: 0 10px 0 10px;
+    color:#000000;
+    
+    font-size: 17px;
 }
 #submit_button{
     color:#f0870f;
