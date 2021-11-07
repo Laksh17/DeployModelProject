@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%0c0jp1_b)yui^4s^p(ew&k3)dldf=5449%cx*afw$o*yvkt$+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'lucky-diamonds-price-predictor.herokuapp.com']
 
 
 # Application definition
